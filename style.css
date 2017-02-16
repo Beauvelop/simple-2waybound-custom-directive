@@ -1,0 +1,29 @@
+  body {
+    box-sizing: border-box;
+    background: #555;
+    color: #988;
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    margin: 10% 15%;
+  }
+div {
+  padding: 2%;
+}
+.green-bg {
+  background-color: green;
+}
+input, button {
+  padding: auto;
+  margin: 2vw auto;
+  width: 20vw;
+  height: 30px;
+  border: 2px solid wheat;
+  box-shadow: 2px 2px 12px  brown;
+  color: maroon;
+}
+.coraltxt {
+  color: coral;
+}
+.whtxt {
+  color: wheat;
+}

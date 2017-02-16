@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body ng-controller="myCtrl">
+    Below, We have an example of two-way binding.<br>
+    It is imperative to consider how delicate this is.<br><br>
+    <h4>Using the <span class="whtxt">'=' </span>in the scope property of myDir...</span></h4>
+    I change what is in the input--(that is Modeled to <b class="whtxt">titleClickme</b>)
+<br><br>I have changed the value of that variable for
+    <ul>
+      <li class="coraltxt">1) The input display on myDir.html</li>
+      <li class="coraltxt">2) The display in the button on myDir.html</li>
+      <li class="coraltxt">3) the  { { titleClickme } } value in the index.html</li>
+    </ul>
+
+    <br>titleClickme value is: <b class="whtxt">{{titleClickme}}</b>
+
+    <my-Dir title="titleClickme"></my-Dir>
+    <my-Dir title="titleStartParty"></my-Dir>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="mydir.js"></script>
+    <script src="myCtrl.js"></script>
+
+  </body>
+</html>
